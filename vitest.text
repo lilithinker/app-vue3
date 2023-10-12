@@ -1,0 +1,28 @@
+官网地址：
+Vitest: https://vitest.dev/
+Vue Test Utils: https://test-utils.vuejs.org/installation/
+
+1, 安装包；
+"@vitejs/plugin-vue": "^4.4.0",
+"@vue/test-utils": "^2.4.1",
+"jsdom": "^22.1.0",
+"vitest": "^0.34.6",
+"@vitest/coverage-v8": "^0.34.6",
+
+2, 配置脚本；
+"t": "vitest"
+"c": "vitest run --coverage"
+
+3, 新建vitest配置文件；
+vitest.config.js
+
+4, 新建测试用例目录；
+./tests/units/**/*.test.js
+
+5, 大概了解的几大模块；
+   a, 关于测试框架的几个基本api;
+   b, 关于setup文件内容；
+   c, 关于各种断言的使用；
+   d, 关于vue test utils的工具包；
+
+6, 编写测试用例；
